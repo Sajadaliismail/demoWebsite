@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 interface PricingCardProps {
   imageSrc: string;
   title: string;

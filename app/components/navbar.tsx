@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 export default function NavBar() {
   const [top, setTop] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
-  let lastScrollY = useRef(0);
+  const lastScrollY = useRef(0);
   const handleScroll = () => {
     setIsOpen(false);
     if (window.scrollY > lastScrollY.current) {

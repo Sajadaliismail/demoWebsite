@@ -52,7 +52,7 @@ export default function Insights() {
             </button>
           </div>
         </div>
-        <div className="flex flex-row justify-between mx-auto gap-8 md:max-w-[90vw] md:max-h-[100vh] overflow-x-scroll ">
+        <div className="flex flex-row justify-between mx-auto gap-8 md:max-w-[90vw] w-full md:max-h-[100vh] overflow-x-hidden ">
           <InsightsCard
             imageUrl="/insights1.png"
             key={"insights1"}

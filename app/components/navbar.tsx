@@ -33,7 +33,7 @@ export default function NavBar() {
   };
   return (
     <header
-      className="fixed flex flex-row justify-between w-full bg-[#515a5fcc] md:bg-transparent py-5 text-white text-lg items-center  z-40"
+      className="fixed flex flex-row justify-between w-[100vw] bg-[#515a5fcc] md:bg-transparent py-5 text-white text-lg items-center  z-40"
       style={{
         top: `${top}px`,
         transition: "top .5s ease-in-out",

@@ -8,8 +8,11 @@ export default function NavBar() {
   const [top, setTop] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const lastScrollY = useRef(0);
+  // Function to handle scroll behavior
   const handleScroll = () => {
+    // Close the menu when scrolling
     setIsOpen(false);
+    // Check if the user is scrolling down
     if (window.scrollY > lastScrollY.current) {
       setTop(-100);
     } else {

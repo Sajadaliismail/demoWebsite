@@ -76,9 +76,9 @@ While this project does not have unit or integration tests implemented, you can 
 
 ## Deployment
 
-This project is hosted on Vercel. You can view the live site at: [WebsiteDemo](https://demo-website-eight-rho.vercel.app/)
+This project is hosted on Vercel. You can view the live site at:
 
-[**Live Demo on Vercel**](#)
+[**Live Demo on Vercel**](https://demo-website-eight-rho.vercel.app/)
 
 To deploy your own version:
 

@@ -8,7 +8,7 @@ interface InsightsCardProps {
 const InsightsCard = ({ imageUrl, date, content }: InsightsCardProps) => {
   return (
     <div
-      className=" text-white flex flex-col justify-end text-wrap md:w-[28vw] w-[90vw] md:p-12 rounded-2xl ml-5"
+      className=" text-white flex flex-col justify-end text-wrap md:w-[28vw] w-full md:p-12 rounded-2xl ml-5"
       style={{
         backgroundImage: `url(${imageUrl})`,
         backgroundRepeat: "no-repeat",
@@ -52,7 +52,7 @@ export default function Insights() {
             </button>
           </div>
         </div>
-        <div className="flex flex-row justify-between mx-auto gap-8 md:max-w-[90vw] w-full md:max-h-[100vh] overflow-x-hidden ">
+        <div className="flex flex-row  justify-around mx-auto gap-8 md:max-w-[90vw] w-[100vw] md:max-h-[100vh] overflow-x-scroll ">
           <InsightsCard
             imageUrl="/insights1.png"
             key={"insights1"}

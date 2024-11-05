@@ -101,8 +101,8 @@ export default function Testimonials() {
           <div className=" relative mx-6  md:w-1/3 ">
             <div
               ref={testimonialsRef}
-              className=" flex flex-row overflow-x-scroll md:min-w-[32vw] gap-5"
-              style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+              className=" flex flex-row overflow-x-scroll justify-around md:min-w-[32vw] gap-5"
+              style={{ scrollbarWidth: "none" }}
             >
               <TestimonialsCard key={12} />
               <TestimonialsCard key={13} />

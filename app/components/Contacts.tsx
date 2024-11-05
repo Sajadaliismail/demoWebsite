@@ -2,9 +2,7 @@ import {
   Facebook,
   Instagram,
   Linkedin,
-  Twitter,
   TwitterIcon,
-  X,
   Youtube,
 } from "lucide-react";
 import Link from "next/link";

@@ -2,7 +2,7 @@ import { Play } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="aboutUs" className="md:h-[100vh] md:p-12 p-2">
+    <section id="about" className="md:h-[100vh] md:p-12 p-2">
       <div
         className="rounded-3xl flex flex-col justify-end md:p-16 p-8 text-white bg-cover md:h-[100vh] h-[70vh] "
         style={{

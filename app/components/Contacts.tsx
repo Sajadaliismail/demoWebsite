@@ -19,7 +19,7 @@ export default function Contacts() {
           <Link className="md:text-xl" href={"#home"}>
             Home
           </Link>
-          <Link className="md:text-xl" href={"#About-us"}>
+          <Link className="md:text-xl" href={"#about"}>
             About Us
           </Link>
           <Link className="md:text-xl" href={"#pricing"}>

@@ -54,9 +54,11 @@ export default function NavBar() {
           <Link href="#insights">Insights</Link>
         </div>
       </div>
-      <button className="bg bg-white text-black p-3 rounded-s-xl ml-auto flex text-nowrap">
-        Contact Us
-      </button>
+      <Link href={"#contacts"}>
+        <button className="bg bg-white text-black p-3 rounded-s-xl ml-auto flex text-nowrap">
+          Contact Us
+        </button>
+      </Link>
       {isOpen && (
         <div
           className={`fixed top-16 left-0 w-full bg-[#515a5fcc] text-white flex flex-col items-center gap-5 sm:hidden`}

@@ -7,12 +7,14 @@ import Testimonials from "./components/Testimonials";
 import Insights from "./components/Insights";
 import Vacancies from "./components/Vacancies";
 import Contacts from "./components/Contacts";
+import About from "./components/About";
 
 export default function Home() {
   return (
     <div className="">
       <NavBar />
       <HeroSection />
+      <About />
       <HowWeHelp />
       <Pricing />
       <Portfolios />
